@@ -1,0 +1,194 @@
+Yijus-MacBook-Pro:Assignment 03 simonyang$ python CompareMLModelsV2.py 
+
+NB
+[[50  0  0]
+ [ 0 47  3]
+ [ 0  3 47]]
+0.96
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        50
+           1       0.94      0.94      0.94        50
+           2       0.94      0.94      0.94        50
+
+   micro avg       0.96      0.96      0.96       150
+   macro avg       0.96      0.96      0.96       150
+weighted avg       0.96      0.96      0.96       150
+
+
+LN
+[[50  0  0]
+ [ 8 42  0]
+ [ 0 39 11]]
+0.6866666666666666
+              precision    recall  f1-score   support
+
+           0       0.86      1.00      0.93        50
+           1       0.52      0.84      0.64        50
+           2       1.00      0.22      0.36        50
+
+   micro avg       0.69      0.69      0.69       150
+   macro avg       0.79      0.69      0.64       150
+weighted avg       0.79      0.69      0.64       150
+
+
+P2
+[[50  0  0]
+ [15 35  0]
+ [ 0 34 16]]
+0.6733333333333333
+              precision    recall  f1-score   support
+
+           0       0.77      1.00      0.87        50
+           1       0.51      0.70      0.59        50
+           2       1.00      0.32      0.48        50
+
+   micro avg       0.67      0.67      0.67       150
+   macro avg       0.76      0.67      0.65       150
+weighted avg       0.76      0.67      0.65       150
+
+
+P3
+[[50  0  0]
+ [22 28  0]
+ [ 3 30 17]]
+0.6333333333333333
+              precision    recall  f1-score   support
+
+           0       0.67      1.00      0.80        50
+           1       0.48      0.56      0.52        50
+           2       1.00      0.34      0.51        50
+
+   micro avg       0.63      0.63      0.63       150
+   macro avg       0.72      0.63      0.61       150
+weighted avg       0.72      0.63      0.61       150
+
+
+KNN
+[[50  0  0]
+ [ 0 46  4]
+ [ 0  5 45]]
+0.94
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        50
+           1       0.90      0.92      0.91        50
+           2       0.92      0.90      0.91        50
+
+   micro avg       0.94      0.94      0.94       150
+   macro avg       0.94      0.94      0.94       150
+weighted avg       0.94      0.94      0.94       150
+
+
+LDA
+[[50  0  0]
+ [ 0 48  2]
+ [ 0  2 48]]
+0.9733333333333334
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        50
+           1       0.96      0.96      0.96        50
+           2       0.96      0.96      0.96        50
+
+   micro avg       0.97      0.97      0.97       150
+   macro avg       0.97      0.97      0.97       150
+weighted avg       0.97      0.97      0.97       150
+
+
+QDA
+[[50  0  0]
+ [ 0 46  4]
+ [ 0  2 48]]
+0.96
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        50
+           1       0.96      0.92      0.94        50
+           2       0.92      0.96      0.94        50
+
+   micro avg       0.96      0.96      0.96       150
+   macro avg       0.96      0.96      0.96       150
+weighted avg       0.96      0.96      0.96       150
+
+
+SVM
+[[50  0  0]
+ [ 0 43  7]
+ [ 0  2 48]]
+0.94
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        50
+           1       0.96      0.86      0.91        50
+           2       0.87      0.96      0.91        50
+
+   micro avg       0.94      0.94      0.94       150
+   macro avg       0.94      0.94      0.94       150
+weighted avg       0.94      0.94      0.94       150
+
+
+DTree
+[[50  0  0]
+ [ 0 48  2]
+ [ 0  9 41]]
+0.9266666666666666
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        50
+           1       0.84      0.96      0.90        50
+           2       0.95      0.82      0.88        50
+
+   micro avg       0.93      0.93      0.93       150
+   macro avg       0.93      0.93      0.93       150
+weighted avg       0.93      0.93      0.93       150
+
+
+RF
+[[50  0  0]
+ [ 0 46  4]
+ [ 0  5 45]]
+0.94
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        50
+           1       0.90      0.92      0.91        50
+           2       0.92      0.90      0.91        50
+
+   micro avg       0.94      0.94      0.94       150
+   macro avg       0.94      0.94      0.94       150
+weighted avg       0.94      0.94      0.94       150
+
+
+ETree
+[[50  0  0]
+ [ 0 46  4]
+ [ 0  8 42]]
+0.92
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        50
+           1       0.85      0.92      0.88        50
+           2       0.91      0.84      0.87        50
+
+   micro avg       0.92      0.92      0.92       150
+   macro avg       0.92      0.92      0.92       150
+weighted avg       0.92      0.92      0.92       150
+
+
+NN
+[[50  0  0]
+ [ 0 45  5]
+ [ 0  0 50]]
+0.9666666666666667
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        50
+           1       1.00      0.90      0.95        50
+           2       0.91      1.00      0.95        50
+
+   micro avg       0.97      0.97      0.97       150
+   macro avg       0.97      0.97      0.97       150
+weighted avg       0.97      0.97      0.97       150
+
+Yijus-MacBook-Pro:Assignment 03 simonyang$ 
